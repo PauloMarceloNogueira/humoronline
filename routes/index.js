@@ -11,7 +11,7 @@ router.get("/", function (req, res, next) {
   ];
   const Object = [
     "que filho é muita treta né cara?",
-    "que não pode mais fazer piada!",
+    "que hoje em dia não pode mais fazer piada!",
     "que a minha sogra é foda meu",
     "que casamento é foda meu",
     "que minha esposa é foda meu",
@@ -20,12 +20,18 @@ router.get("/", function (req, res, next) {
     "que segunda-feira é foda meu",
     "que sexo é foda meu",
     "que boleto é foda meu",
+    "ter pau pequeno é foda!",
     "que o PT é foda meu",
   ];
   const Reactone = [
     "** aponta pro homem careca na segunda fileira **",
     "** segura o pedestal do microfone **",
     "** faz cara de cansado **",
+    "** aponta pra mulher na mesa 4 **",
+    "** puxa a calça pra cima **",
+    "** balaça a cabeça negativamente **",
+    "** enrola o fio do microfone na mão **",
+    "** olha pra baixo e dá um sorriso **",
   ];
   const Question = [
     "né?",
@@ -33,6 +39,7 @@ router.get("/", function (req, res, next) {
     "é sério..",
     "não concorda comigo?",
     "cê não acha?",
+    "falaê?!",
   ];
   const PeopleReact = [
     "** plateia explode de rir **",
@@ -40,6 +47,7 @@ router.get("/", function (req, res, next) {
     "** plateia ri timidamente **",
     "** homem branco de meia idade ri exaustivamente **",
     "** garçom derruba a garrafa **",
+    "** Casal da mesa 6 discute **",
   ];
   const Ending = [
     "outra coisa que sempre penso:",
