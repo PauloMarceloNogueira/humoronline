@@ -5,9 +5,11 @@ var router = express.Router();
 router.get("/", function (req, res, next) {
   const Initial = [
     "Eu tava aqui pensando…",
-    "uma coisa que é muito louca é",
     "já reparou",
-    "esses dias vi",
+    "esses dias eu vi",
+    "cê já viu",
+    "já percebeu",
+    "já parou pra pensar",
   ];
   const Object = [
     "que filho é muita treta né cara?",
@@ -16,22 +18,24 @@ router.get("/", function (req, res, next) {
     "que casamento é foda meu",
     "que minha esposa é foda meu",
     "que 2020 foi foda",
-    "que geladeira é foda meu",
     "que segunda-feira é foda meu",
     "que sexo é foda meu",
     "que boleto é foda meu",
-    "ter pau pequeno é foda!",
+    "que ter pau pequeno é foda!",
     "que o PT é foda meu",
+    "que a smart fit é foda meu",
   ];
   const Reactone = [
     "** aponta pro homem careca na segunda fileira **",
+    "** aponta pro homem barrigudo na terceira fileira **",
     "** segura o pedestal do microfone **",
     "** faz cara de cansado **",
-    "** aponta pra mulher na mesa 4 **",
+    "** aponta pra mulher na mesa quatro **",
     "** puxa a calça pra cima **",
     "** balaça a cabeça negativamente **",
     "** enrola o fio do microfone na mão **",
     "** olha pra baixo e dá um sorriso **",
+    "** espera terminar os aplausos **",
   ];
   const Question = [
     "né?",
@@ -48,23 +52,34 @@ router.get("/", function (req, res, next) {
     "** homem branco de meia idade ri exaustivamente **",
     "** garçom derruba a garrafa **",
     "** Casal da mesa 6 discute **",
+    "** Silêncio no bar **",
+    "** Mulher da mesa 1 se levanta e vai embora **",
+    "** Plateia ri por 5 minutos e aplaude **",
+    "** Plateia aplaude **",
+    "** Jovem da mesa do fundo gargalha **",
+    "** Senhor da mesa 3 engasga de tanto rir **",
   ];
   const Ending = [
     "outra coisa que sempre penso:",
     "outra coisa que sempre falo:",
     "outra coisa que sempre me incomoda:",
+    "ai ai ai...  ",
+    "falando nisso...",
   ];
 
   const Finish = [
     "e o PT?? Foda mano",
+    "e esse politicamente correto?",
     "porque guardar feijão no pote de sorvete?! Porra!",
-    "ser casado é foda!",
-    "Sempre concorde com sua esposa caras",
-    "A minha sogra!",
+    "ser casado é foda...",
+    "Sempre concorde com sua esposa cara",
+    "A minha sogra...",
+    "O Lula...",
     "quem coloca Uva passa no arroz?!",
     "quem inventou a Maçã na maionese?!",
     "o reveillon é foda",
     "o Neymar...",
+    "E o personal trainer da minha esposa?",
   ];
 
   const getRandomArbitrary = (array) => {
