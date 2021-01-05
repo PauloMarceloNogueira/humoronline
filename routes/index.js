@@ -82,6 +82,7 @@ router.get("/", function (req, res, next) {
     "E o personal trainer da minha esposa?",
     "E o amigo secreto?",
     "O grupo de whatsapp da família?",
+    "Quem aqui também já foi ~cancelado~ na internet?",
   ];
 
   const getRandomArbitrary = (array) => {
