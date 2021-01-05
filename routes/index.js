@@ -14,7 +14,7 @@ router.get("/", function (req, res, next) {
   const Object = [
     "que filho é muita treta né cara?",
     "que hoje em dia não pode mais fazer piada!",
-    "que a minha sogra é foda meu",
+    "que sogra é foda meu",
     "que casamento é foda meu",
     "que minha esposa é foda meu",
     "que 2020 foi foda",
@@ -81,7 +81,7 @@ router.get("/", function (req, res, next) {
     "o Neymar...",
     "E o personal trainer da minha esposa?",
     "E o amigo secreto?",
-    "O grupo de whatsapp da família?",
+    "E o grupo de whatsapp da família?",
     "Quem aqui também já foi ~cancelado~ na internet?",
   ];
 
