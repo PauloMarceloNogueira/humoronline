@@ -80,6 +80,8 @@ router.get("/", function (req, res, next) {
     "o reveillon é foda",
     "o Neymar...",
     "E o personal trainer da minha esposa?",
+    "E o amigo secreto?",
+    "O grupo de whatsapp da família?",
   ];
 
   const getRandomArbitrary = (array) => {
