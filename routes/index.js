@@ -61,9 +61,9 @@ router.get("/", function (req, res, next) {
     "ser casado é foda!",
     "Sempre concorde com sua esposa caras",
     "A minha sogra!",
-    "Uva passa no arroz!",
-    "Maçã na maionese!",
-    "o reveillon",
+    "quem coloca Uva passa no arroz?!",
+    "quem inventou a Maçã na maionese?!",
+    "o reveillon é foda",
     "o Neymar...",
   ];
 
