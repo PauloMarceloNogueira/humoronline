@@ -1,20 +1,21 @@
 extends layout
 
 block content
-  .content
-    h1= title
-    p ...
-    p #{initial}
-    p #{object}
-    p #{react}
-    p #{question}
-    p #{peopleReact}
-    p #{ending}
-    p #{finish}
-    p ...
+  .container
+    .content
+      h1= title
+      p ...
+      p #{initial}
+      p #{object}
+      p #{react}
+      p #{question}
+      p #{peopleReact}
+      p #{ending}
+      p #{finish}
+      p ...
 
-    .button
-      a(href="#" onclick="location.reload(true); return false;") Gerar uma nova piada!
+      .button
+        a(href="#" onclick="location.reload(true); return false;") Gerar uma nova piada!
 
-    .twitter
-      a(href="https://twitter.com/PaulinhoM") @PaulinhoM
+      .twitter
+        a(href="https://twitter.com/PaulinhoM") @PaulinhoM

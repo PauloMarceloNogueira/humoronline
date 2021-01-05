@@ -1,7 +1,6 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image: url("../images/bg.jpg");
 }
 
 a {
@@ -11,7 +10,12 @@ a {
 p {
   color: #fff;
 }
-
+.container {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
 .content {
   background-color: rgba(9, 9, 9, 0.4);
   padding: 16px;
