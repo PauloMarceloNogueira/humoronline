@@ -61,6 +61,10 @@ router.get("/", function (req, res, next) {
     "ser casado é foda!",
     "Sempre concorde com sua esposa caras",
     "A minha sogra!",
+    "Uva passa no arroz!",
+    "Maçã na maionese!",
+    "o reveillon",
+    "o Neymar...",
   ];
 
   const getRandomArbitrary = (array) => {
